@@ -1,0 +1,67 @@
+[
+  {
+    "courseId": 79804,
+    "courseName": "Programmering i C#",
+    "numberOfWeeks": 16,
+    "startDate": "2024-10-03T14:17:24.8261806+02:00",
+    "endDate": "2025-01-23T14:17:24.8261806+01:00",
+    "courseType": 0,
+    "teacher": {
+      "filedOfExpertise": "Programmering",
+      "courseIds": [
+        79804
+      ],
+      "personId": 64713,
+      "address": "DummyVägen 2",
+      "city": "Mamlö",
+      "firstName": "Bengt",
+      "phoneNumber": "075-9432744",
+      "lastName": "Nilsson",
+      "socialSecurityNumber": "19830524-6786",
+      "zipCode": "250-00"
+    },
+    "courseLeader": {
+      "dateOfEmployment": "2024-10-03T14:17:24.81703+02:00",
+      "filedOfExpertise": "Programmering",
+      "courseIds": [
+        79804
+      ],
+      "personId": 3048,
+      "address": "DummyGatan 7",
+      "city": "Mamlö",
+      "firstName": "Greta",
+      "phoneNumber": "077-7349656",
+      "lastName": "Olsson",
+      "socialSecurityNumber": "19531002-4584",
+      "zipCode": "250-00"
+    },
+    "admin": {
+      "dateOfEmployment": "2024-10-03T14:17:24.8261418+02:00",
+      "filedOfExpertise": "Programmering",
+      "courseIds": [
+        79804
+      ],
+      "personId": 12288,
+      "address": "DummyVägen 5",
+      "city": "Mamlö",
+      "firstName": "Olof",
+      "phoneNumber": "071-4849784",
+      "lastName": "Persson",
+      "socialSecurityNumber": "20020625-6374",
+      "zipCode": "250-00"
+    },
+    "students": [
+      {
+        "courseId": 79804,
+        "personId": 52412,
+        "address": "DummyGatan 5",
+        "city": "Mamlö",
+        "firstName": "Nils",
+        "phoneNumber": "072-9839286",
+        "lastName": "Nilssson",
+        "socialSecurityNumber": "20051201-3840",
+        "zipCode": "250-01"
+      }
+    ]
+  }
+]

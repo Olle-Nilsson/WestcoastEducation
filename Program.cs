@@ -52,6 +52,17 @@ class Program
 
         Console.WriteLine(course);
 
+        var path = string.Concat(Environment.CurrentDirectory, "/data/courses.json");
+        JsonManager.WriteJson(path, [course]);
+
+
+        var course1 = JsonManager.ReadJson(path);
+        foreach (var c in course1)
+        {
+            Console.WriteLine(c);
+        }
+
+
 
 
 
