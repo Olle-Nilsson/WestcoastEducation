@@ -13,7 +13,7 @@ public class Teacher : Person
         sb.Append($"{base.ToString()} FiledOfExpertise: {FiledOfExpertise} CourseIds: ");
         foreach (int i in CourseIds)
         {
-            sb.Append($"{i}, ");
+            sb.Append($"{i} ");
         }
         return sb.ToString();
     }
