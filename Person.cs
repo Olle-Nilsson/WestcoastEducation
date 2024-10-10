@@ -1,6 +1,6 @@
 ﻿namespace WestcoastEducation;
 
-public class Person
+public class Person : IPerson
 {
     public int PersonId { get; set; } = new Random().Next(1000, 99000);
     public string Address { get; set; } = "";

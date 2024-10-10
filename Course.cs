@@ -1,10 +1,8 @@
-﻿using System.Diagnostics.CodeAnalysis;
-using System.Dynamic;
-using System.Text;
+﻿using System.Text;
 
 namespace WestcoastEducation;
 
-public class Course
+public class Course : ICourse
 {
     public int CourseId { get; set; } = new Random().Next(1000, 99000);
     public string CourseName { get; set; } = "";
